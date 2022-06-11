@@ -1,0 +1,64 @@
+{
+  "name": "web",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview",
+    "lint": "eslint src/",
+    "lint:fix": "eslint src/ --fix",
+    "format": "prettier --write **/*.{js,ts,tsx}",
+    "format:check": "prettier --check src/",
+    "commit": "cz",
+    "release": "semantic-release --no-ci",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "classnames": "^2.3.1",
+    "formik": "^2.2.9",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-helmet": "^6.1.0",
+    "react-hot-toast": "^2.2.0",
+    "react-icons": "^4.3.1",
+    "react-router-dom": "^6.2.1",
+    "sass": "^1.43.4",
+    "use-local-storage": "^2.3.6",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@alxui/eslint-config": "^1.0.3",
+    "@commitlint/cli": "^17.0.1",
+    "@commitlint/config-conventional": "^17.0.0",
+    "@types/node": "^16.11.6",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/react-helmet": "^6.1.5",
+    "@types/react-router-dom": "^5.3.3",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "@vitejs/plugin-react": "^1.0.0",
+    "cz-conventional-changelog": "3.3.0",
+    "eslint": "^8.16.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^12.4.2",
+    "semantic-release": "^19.0.2",
+    "typescript": "^4.3.2",
+    "vite": "^2.6.4",
+    "vite-tsconfig-paths": "^3.3.17"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx}": "eslint"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn run lint-staged"
+    }
+  }
+}
