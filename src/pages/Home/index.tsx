@@ -17,7 +17,7 @@ export function Homepage() {
     <>
       <div className={styles.home} data-theme={theme}>
         <h1>
-          alx<span>boilerplate</span>
+          vite<span>boilerplate</span>
         </h1>
       </div>
     </>
