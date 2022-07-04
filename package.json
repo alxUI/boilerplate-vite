@@ -27,7 +27,7 @@
     "yup": "^0.32.11"
   },
   "devDependencies": {
-    "@alxui/eslint-config": "^1.0.3",
+    "@ialexanderbrito/eslint-config": "^1.0.3",
     "@commitlint/cli": "^17.0.2",
     "@commitlint/config-conventional": "^17.0.2",
     "@semantic-release/changelog": "^6.0.1",

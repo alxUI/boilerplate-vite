@@ -3,7 +3,7 @@
     "browser": true,
     "es6": true
   },
-  "extends": ["@alxui/eslint-config/react"],
+  "extends": ["@ialexanderbrito/eslint-config/react"],
   "rules": {
     // ADICIONE SUAS REGRAS AQUI
   },

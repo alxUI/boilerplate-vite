@@ -2,28 +2,6 @@
 # yarn lockfile v1
 
 
-"@alxui/eslint-config@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@alxui/eslint-config/-/eslint-config-1.0.3.tgz#cf6eb0ceb78165803e35535fa681e9ee0f2f1aea"
-  integrity sha512-zMbOzZ0FhPw3Bc1NHpKDDJQDQWOSYkCDm0B5H4IeqD3MQQ183D1/YdZ7uAOnYhOQonOS76kPWq+sBkv08V6JcQ==
-  dependencies:
-    "@typescript-eslint/eslint-plugin" "^5.27.0"
-    "@typescript-eslint/parser" "^5.27.0"
-    eslint "^8.16.0"
-    eslint-config-prettier "^8.5.0"
-    eslint-config-standard "^17.0.0"
-    eslint-plugin-import "^2.26.0"
-    eslint-plugin-import-helpers "^1.2.1"
-    eslint-plugin-jsx-a11y "^6.5.1"
-    eslint-plugin-n "^15.2.0"
-    eslint-plugin-prettier "^4.0.0"
-    eslint-plugin-promise "^6.0.0"
-    eslint-plugin-react "^7.30.0"
-    eslint-plugin-react-hooks "^4.5.0"
-    prettier "^2.6.2"
-    prettier-eslint "^15.0.1"
-    prettier-eslint-cli "^6.0.1"
-
 "@ampproject/remapping@^2.1.0":
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/@ampproject/remapping/-/remapping-2.2.0.tgz#56c133824780de3174aed5ab6834f3026790154d"
@@ -474,6 +452,28 @@
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
+
+"@ialexanderbrito/eslint-config@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@ialexanderbrito/eslint-config/-/eslint-config-1.0.3.tgz#d46dbfc9df572c76d023a0622fd7e40cca26b709"
+  integrity sha512-27+pTDKv1++uYVc6goOAg8TCIOdddzBgLGfRVejRlETtygbiHv4Ms27gcVdpidHYcewBjz86VD7gkMKmHXrYvA==
+  dependencies:
+    "@typescript-eslint/eslint-plugin" "^5.27.0"
+    "@typescript-eslint/parser" "^5.27.0"
+    eslint "^8.16.0"
+    eslint-config-prettier "^8.5.0"
+    eslint-config-standard "^17.0.0"
+    eslint-plugin-import "^2.26.0"
+    eslint-plugin-import-helpers "^1.2.1"
+    eslint-plugin-jsx-a11y "^6.5.1"
+    eslint-plugin-n "^15.2.0"
+    eslint-plugin-prettier "^4.0.0"
+    eslint-plugin-promise "^6.0.0"
+    eslint-plugin-react "^7.30.0"
+    eslint-plugin-react-hooks "^4.5.0"
+    prettier "^2.6.2"
+    prettier-eslint "^15.0.1"
+    prettier-eslint-cli "^6.0.1"
 
 "@isaacs/string-locale-compare@^1.1.0":
   version "1.1.0"
